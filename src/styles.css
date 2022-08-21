@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+body { padding: 50px; }
+
+/* Outer Container */
+.outer-container {
+    background-color: #23252C;
+    height: 720px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    height: fit-content;
+}
+
+/* Inner Container */
+.inner-container {
+    background-color: #1A1B21;
+    width: 317px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Top Section */
+
+/* Info */
+
+.info--picture {
+    height: 317px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.info--picture img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.info--intro {
+    width: 100%;
+}
+
+.info--intro_name,
+.info--intro_title,
+.info--intro_github  {
+    letter-spacing: 0em;
+    text-align: center;    
+}
+
+.info--intor_name {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.info--intro_title {
+    font-size: 13px;
+    font-weight: 400;
+    color: #F3BF99;
+    margin-top: -20px;
+}
+
+.info--intro_github {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.info--intro_github a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info--buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 25px;
+}
+
+.info--buttons_btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    transition: all .3s;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.info--buttons_btn:first-child {
+    padding: 9px 30px 9px 30px;
+    background-color: #fff;
+    color: #000;
+}
+
+.info--buttons_btn:last-child {
+    background-color: #5093E2;
+    padding: 9px 20px 9px 20px;
+    color: #fff;
+}
+
+.info--buttons_btn:hover {
+    transform: translateY(1px);
+    box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.05);
+}
+
+.info--buttons_btn img {
+    height: 15px;
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Bottom Section */
+
+.bottom {
+    padding: 5px 30px 40px 30px;
+}
+
+/* About and Interests */
+.about--title,
+.interests--title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.about--text,
+.interests--text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: justify; 
+    margin-top: -10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #161619;
+    height: 64px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem;
+}
+.footer--icon {
+    transition: all .3s;
+}
+.footer--icon:hover {
+    background-color: #000;
+    transform: scale(1.05);
+}
